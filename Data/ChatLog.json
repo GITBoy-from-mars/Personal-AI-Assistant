@@ -1,0 +1,74 @@
+[
+    {
+        "role": "user",
+        "parts": [
+            "hii"
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            "Hi\n"
+        ]
+    },
+    {
+        "role": "user",
+        "parts": [
+            "& S:/Desktop/VisionMinds/.venv/Scripts/python.exe s:/Desktop/VisionMinds/Backend/ImageGeneration.py"
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            "I cannot execute code.  Therefore, I cannot provide a response to your query.\n"
+        ]
+    },
+    {
+        "role": "user",
+        "parts": [
+            "& S:/Desktop/VisionMinds/.venv/Scripts/python.exe s:/Desktop/VisionMinds/Backend/RealtimeSearchEngine.py"
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            "I cannot execute code.\n"
+        ]
+    },
+    {
+        "role": "user",
+        "parts": [
+            "& S:/Desktop/VisionMinds/.venv/Scripts/python.exe s:/Desktop/VisionMinds/Backend/ImageGeneration.py"
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            "I cannot execute code.\n"
+        ]
+    },
+    {
+        "role": "user",
+        "parts": [
+            "Hello."
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            "Hello.\n"
+        ]
+    },
+    {
+        "role": "user",
+        "parts": [
+            "How are you?"
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            "I am functioning as expected.\n"
+        ]
+    }
+]
