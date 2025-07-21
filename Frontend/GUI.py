@@ -1105,8 +1105,11 @@ class InitialScreen(QWidget):
             gif_label = QLabel()
             movie = QMovie(GraphicsDirectoryPath('Jarvis.gif'))
             gif_label.setMovie(movie)
-            max_gif_size_H = int(screen_width / 1 * 1)
+    
+            max_gif_size_H = int(screen_width / 90 * 90)
+            movie.setScaledSize(QSize(150, 150))
             # movie.setScaledSize(QSize(screen_width, max_gif_size_H))
+
             gif_label.setAlignment(Qt.AlignCenter)
             movie.start()
             gif_label.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
